@@ -22,7 +22,7 @@ export function About() {
         <div className="lg:col-span-5 flex flex-col gap-6">
           <div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              AI &amp; Data Science graduate with hands-on experience in Flutter development, software testing, and machine learning. Passionate about building scalable applications and solving real-world problems through software.
+              As an AI &amp; Data Science graduate, I enjoy transforming data into actionable insights, developing intelligent machine learning solutions, and building scalable software that combines modern engineering with data-driven decision-making. Experienced in Flutter development, Python backends, software testing, and Power BI analytics.
             </p>
           </div>
           

@@ -46,7 +46,7 @@ export function ContactForm() {
               </h2>
               {/* Target Role Sub-badges */}
               <div className="flex flex-wrap gap-1.5 pt-1">
-                {["Software Developer", "QA Engineer", "AI Engineer", "Data Analyst"].map((role) => (
+                {["Software Developer", "AI / ML Engineer", "Data Analyst / BI Analyst", "QA Engineer"].map((role) => (
                   <span
                     key={role}
                     className="inline-flex items-center rounded-md bg-white/5 border border-white/10 px-2 py-0.5 text-[9px] font-semibold text-zinc-300"
@@ -56,7 +56,7 @@ export function ContactForm() {
                 ))}
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed pt-2">
-                Currently available for Software Developer, QA Engineer, AI Engineer and Data Analyst opportunities. Whether you have an open junior position, an internship opportunity, or want to discuss collaborations—feel free to send a message. I am ready to start immediately.
+                Currently available for Software Developer, AI/ML Engineer, Data Analyst and QA Engineer opportunities. Whether you have an open junior position, an internship opportunity, or want to discuss collaborations—feel free to send a message. I am ready to start immediately.
               </p>
             </div>
 

@@ -35,34 +35,34 @@ export default function Home() {
               </Card>
               <Card delay={0.1} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-accent tracking-tight">
+                  94.6%
+                </span>
+                <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
+                  ML Accuracy
+                </span>
+              </Card>
+              <Card delay={0.15} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
+                <span className="text-2xl md:text-3xl font-display font-extrabold text-white tracking-tight">
+                  10K+
+                </span>
+                <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
+                  Data Records
+                </span>
+              </Card>
+              <Card delay={0.2} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
+                <span className="text-2xl md:text-3xl font-display font-extrabold text-accent tracking-tight">
                   2
                 </span>
                 <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
                   Internships
                 </span>
               </Card>
-              <Card delay={0.15} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
+              <Card delay={0.25} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300 col-span-2 md:col-span-1">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-white tracking-tight">
                   5
                 </span>
                 <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
                   Featured Projects
-                </span>
-              </Card>
-              <Card delay={0.2} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
-                <span className="text-2xl md:text-3xl font-display font-extrabold text-accent tracking-tight">
-                  100+
-                </span>
-                <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
-                  QA Test Cases
-                </span>
-              </Card>
-              <Card delay={0.25} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300 col-span-2 md:col-span-1">
-                <span className="text-2xl md:text-3xl font-display font-extrabold text-white tracking-tight">
-                  20+
-                </span>
-                <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
-                  Defects Logged
                 </span>
               </Card>
             </div>

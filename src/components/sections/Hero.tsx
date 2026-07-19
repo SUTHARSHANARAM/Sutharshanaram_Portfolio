@@ -7,16 +7,16 @@ import { Button } from "@/components/ui/Button";
 
 function TerminalMockup() {
   const terminalLines = [
-    { text: "$ flutter build", delay: 0.5, color: "text-zinc-400" },
-    { text: "✓ Built release APK (18.2MB)", delay: 1.0, color: "text-emerald-400" },
-    { text: "$ git push origin main", delay: 1.5, color: "text-zinc-400" },
-    { text: "✓ Pushed to github/SUTHARSHANARAM", delay: 2.2, color: "text-zinc-500" },
-    { text: "$ pytest tests/", delay: 2.6, color: "text-zinc-400" },
-    { text: "✓ 100+ manual & automation tests OK", delay: 3.2, color: "text-emerald-400" },
-    { text: "$ uvicorn main:app --reload", delay: 3.6, color: "text-zinc-400" },
-    { text: "✓ FastAPI running: localhost:8000", delay: 4.2, color: "text-blue-400" },
-    { text: "$ powerbi-cli load dashboard.pbix", delay: 4.6, color: "text-zinc-400" },
-    { text: "✓ Dashboard loaded successfully", delay: 5.2, color: "text-emerald-400" }
+    { text: "$ python train_model.py", delay: 0.5, color: "text-zinc-400" },
+    { text: "✓ Model accuracy: 94.6%", delay: 1.1, color: "text-emerald-400" },
+    { text: "$ flutter build apk", delay: 1.6, color: "text-zinc-400" },
+    { text: "✓ Built release APK (18.2MB)", delay: 2.2, color: "text-emerald-400" },
+    { text: "$ pytest tests/", delay: 2.7, color: "text-zinc-400" },
+    { text: "✓ 102 tests passed", delay: 3.2, color: "text-emerald-400" },
+    { text: "$ uvicorn main:app --reload", delay: 3.7, color: "text-zinc-400" },
+    { text: "✓ Server running on port 8000", delay: 4.3, color: "text-blue-400" },
+    { text: "$ powerbi-cli load dashboard.pbix", delay: 4.8, color: "text-zinc-400" },
+    { text: "✓ Dashboard loaded successfully", delay: 5.4, color: "text-emerald-400" }
   ];
 
   return (
@@ -106,11 +106,14 @@ export function Hero() {
                 Software Developer
               </span>
               <span className="inline-flex items-center rounded-md bg-white/5 px-2.5 py-0.5 text-xs font-semibold text-zinc-300 ring-1 ring-inset ring-white/15">
-                AI &amp; Data Science Graduate
+                AI &amp; ML Engineer
+              </span>
+              <span className="inline-flex items-center rounded-md bg-white/5 px-2.5 py-0.5 text-xs font-semibold text-zinc-300 ring-1 ring-inset ring-white/15">
+                Data Analyst
               </span>
             </div>
             <p className="text-xs font-semibold text-zinc-400 font-mono tracking-wide">
-              Flutter • Python • Machine Learning • QA
+              Flutter • Python • Machine Learning • Data Analytics • Power BI • QA
             </p>
           </motion.div>
 
@@ -119,7 +122,7 @@ export function Hero() {
             variants={itemVariants}
             className="text-sm md:text-base text-muted-foreground leading-relaxed max-w-lg"
           >
-            Building scalable software, AI-powered applications and responsive mobile experiences.
+            Building scalable software, AI-powered solutions, machine learning applications, and data-driven experiences using Flutter, Python, and modern analytics tools.
           </motion.p>
 
           {/* Recruiter Metadata Cards/Pills Grid */}
