@@ -1,0 +1,50 @@
+SUTHARSHANARAM R 
+ +91 6379674330     rsutharshanaram@gmail.com   Panaimedu, Nagapattinam 
+ linkedin.com/in/sutharshanaram-r     github.com/SUTHARSHANARAM 
+PROFILE 
+B.Tech graduate in Artificial Intelligence & Data Science with hands -on internship experience in software development and software 
+testing. Proficient in Python, SQL, and Dart, with knowledge of Data Analytics, Machine Learning, Deep Learning, and Computer Vision. 
+Passionate about developing scalable software solutions and leveraging data to solve real -world problems. 
+EDUCATION 
+B.Tech — Artificial Intelligence & Data Science 2022 – 2026 
+E.G.S. Pillay Engineering College, Nagapattinam — CGPA: 8.13 
+Higher Secondary Certificate (HSC) 2022 
+Government Higher Secondary School, Sikkal — 82% 
+Secondary School Leaving Certificate (SSLC) 2020 
+E.G.S. Pillay Matriculation School, Nagapattinam — 69% 
+INTERNSHIP EXPERIENCE 
+AI Intern | Lavendal Consulting May 2025 – December 2025 
+• Developed and delivered 10+ production-ready features including AI-powered modules for the LUVA mobile application using 
+Flutter and Dart across multiple Agile sprint cycles. 
+• Collaborated with cross-functional teams in an Agile environment, participating in sprint planning, code reviews, and feature 
+discussions. 
+• Developed responsive UI screens and integrated REST APIs to support end -to-end application workflows and seamless backend 
+communication. 
+AI Intern | Aazeero Software Labs January 2026 – June 2026 
+• Developed and tested AI-integrated mobile application modules across LUVA and Digidine using Flutter, ensuring functionality 
+and quality across multiple application workflows. 
+• Executed 100+ functional, regression, and integration test cases to validate application functionality and software reliabili ty. 
+• Identified, documented, and tracked 20+ software defects through the complete defect lifecycle, collaborating with developers  
+to verify resolutions. 
+PROJECT 
+GAN-Enhanced Plant Disease Detection & Treatment Suggestion System  
+Technologies: Python, Streamlit, GAN, CNN, scikit-learn, OpenCV, Machine Learning, Deep Learning, Computer Vision 
+• Built a full-stack deep learning web app using Streamlit and GANs to detect plant diseases from leaf images across multiple 
+disease classes and recommend targeted treatment remedies. 
+• Designed an end-to-end ML pipeline covering dataset collection, image preprocessing, GAN -based data augmentation to 
+expand training data, and CNN model design with hyperparameter tuning.  
+• Evaluated model performance using confusion matrices and accuracy metrics, then deployed the application — demonstrating 
+skills in computer vision, model deployment, and secure application development.  
+SKILLS 
+Languages: Python, SQL, Dart 
+Tools: Power BI, Git, Github 
+Soft Skills: Problem Solving, Communication, Team Collaboration 
+CERTIFICATIONS 
+• Responsible & Safe AI Systems — NPTEL 
+• Statistical Learning for Reliability Analysis — NPTEL 
+• Machine Learning Onramp — MathWorks 
+• GenAI Powered Data Analytics Job Simulation — Forage 
+• Data Engineering Professional — RapidMiner 
+• Python for Beginners — Python Institute 
+• Getting Started with Artificial Intelligence — IBM SkillsBuild 
+
