@@ -11,15 +11,19 @@ export function Certifications() {
       name: "Responsible & Safe AI Systems"
     },
     {
-      provider: "NPTEL",
-      name: "Statistical Learning for Reliability Analysis"
-    },
-    {
       provider: "MathWorks",
       name: "Machine Learning Onramp"
     },
     {
-      provider: "IBM",
+      provider: "Forage",
+      name: "GenAI Powered Data Analytics Job Simulation"
+    },
+    {
+      provider: "RapidMiner",
+      name: "Data Engineering Professional"
+    },
+    {
+      provider: "IBM SkillsBuild",
       name: "Getting Started with Artificial Intelligence"
     }
   ];
