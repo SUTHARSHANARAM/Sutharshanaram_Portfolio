@@ -106,10 +106,7 @@ export function Hero() {
                 Software Developer
               </span>
               <span className="inline-flex items-center rounded-md bg-white/5 px-2.5 py-0.5 text-xs font-semibold text-zinc-300 ring-1 ring-inset ring-white/15">
-                AI &amp; ML Engineer
-              </span>
-              <span className="inline-flex items-center rounded-md bg-white/5 px-2.5 py-0.5 text-xs font-semibold text-zinc-300 ring-1 ring-inset ring-white/15">
-                Data Analyst
+                AI &amp; Data Science Graduate
               </span>
             </div>
             <p className="text-xs font-semibold text-zinc-400 font-mono tracking-wide">

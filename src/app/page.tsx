@@ -43,10 +43,10 @@ export default function Home() {
               </Card>
               <Card delay={0.15} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-white tracking-tight">
-                  10K+
+                  100+
                 </span>
                 <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
-                  Data Records
+                  QA Test Cases
                 </span>
               </Card>
               <Card delay={0.2} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
