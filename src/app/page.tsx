@@ -24,37 +24,76 @@ export default function Home() {
         {/* Recruiter Metrics Card Grid */}
         <section className="py-12 relative z-10 select-none border-b border-border/10">
           <div className="max-w-5xl mx-auto px-6">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <Card delay={0.05} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <Card delay={0.05} className="p-4 flex flex-col justify-center gap-1 hover:border-accent/40 transition-colors duration-300">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-accent tracking-tight">
-                  94.6%
+                  10+
                 </span>
-                <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
-                  ML Accuracy
+                <span className="text-[11px] font-bold text-white tracking-wide">
+                  Features Shipped
+                </span>
+                <span className="text-[9px] text-zinc-400 font-mono">
+                  Delivered across mobile apps
                 </span>
               </Card>
-              <Card delay={0.1} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
+
+              <Card delay={0.1} className="p-4 flex flex-col justify-center gap-1 hover:border-accent/40 transition-colors duration-300">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-white tracking-tight">
                   100+
                 </span>
-                <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
+                <span className="text-[11px] font-bold text-white tracking-wide">
                   QA Test Cases
                 </span>
+                <span className="text-[9px] text-zinc-400 font-mono">
+                  Functional &amp; regression testing
+                </span>
               </Card>
-              <Card delay={0.15} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
+
+              <Card delay={0.15} className="p-4 flex flex-col justify-center gap-1 hover:border-accent/40 transition-colors duration-300">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-accent tracking-tight">
-                  2
+                  20+
                 </span>
-                <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
-                  Internships
+                <span className="text-[11px] font-bold text-white tracking-wide">
+                  Defects Resolved
+                </span>
+                <span className="text-[9px] text-zinc-400 font-mono">
+                  Full lifecycle defect tracking
                 </span>
               </Card>
-              <Card delay={0.2} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
+
+              <Card delay={0.2} className="p-4 flex flex-col justify-center gap-1 hover:border-accent/40 transition-colors duration-300">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-white tracking-tight">
+                  94.6%
+                </span>
+                <span className="text-[11px] font-bold text-white tracking-wide">
+                  ML Model Accuracy
+                </span>
+                <span className="text-[9px] text-zinc-400 font-mono">
+                  GAN &amp; CNN diagnostic vision
+                </span>
+              </Card>
+
+              <Card delay={0.25} className="p-4 flex flex-col justify-center gap-1 hover:border-accent/40 transition-colors duration-300">
+                <span className="text-2xl md:text-3xl font-display font-extrabold text-accent tracking-tight">
                   6
                 </span>
-                <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
-                  Featured Projects
+                <span className="text-[11px] font-bold text-white tracking-wide">
+                  Engineering Systems
+                </span>
+                <span className="text-[9px] text-zinc-400 font-mono">
+                  AI, Flutter, FastAPI &amp; Analytics
+                </span>
+              </Card>
+
+              <Card delay={0.3} className="p-4 flex flex-col justify-center gap-1 hover:border-accent/40 transition-colors duration-300">
+                <span className="text-2xl md:text-3xl font-display font-extrabold text-white tracking-tight">
+                  2
+                </span>
+                <span className="text-[11px] font-bold text-white tracking-wide">
+                  Industry Internships
+                </span>
+                <span className="text-[9px] text-zinc-400 font-mono">
+                  Aazeero &amp; Lavendal Labs
                 </span>
               </Card>
             </div>
