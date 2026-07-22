@@ -165,34 +165,34 @@ export function Hero() {
           {/* Social Links */}
           <motion.div
             variants={itemVariants}
-            className="flex items-center gap-4 pt-1 w-full"
+            className="flex items-center gap-3 pt-1 w-full"
           >
             <a
               href="https://github.com/SUTHARSHANARAM"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs flex items-center gap-1.5 text-muted-foreground hover:text-white transition-colors duration-300 border border-border/30 rounded-md px-2 py-1 bg-card/25"
+              className="text-xs font-semibold flex items-center gap-1.5 text-zinc-200 hover:text-white transition-all duration-300 border border-accent/40 rounded-lg px-3 py-1.5 bg-accent/10 shadow-[0_0_12px_rgba(59,130,246,0.25)] hover:border-accent hover:bg-accent/20 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)]"
               aria-label="GitHub Profile"
             >
-              <Github className="w-4 h-4" /> View GitHub
+              <Github className="w-4 h-4 text-accent" /> View GitHub
             </a>
             <a
               href="https://linkedin.com/in/sutharshanaram-r"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs flex items-center gap-1.5 text-muted-foreground hover:text-white transition-colors duration-300 border border-border/30 rounded-md px-2 py-1 bg-card/25"
+              className="text-xs font-semibold flex items-center gap-1.5 text-zinc-200 hover:text-white transition-all duration-300 border border-accent/40 rounded-lg px-3 py-1.5 bg-accent/10 shadow-[0_0_12px_rgba(59,130,246,0.25)] hover:border-accent hover:bg-accent/20 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)]"
               aria-label="LinkedIn Profile"
             >
-              <Linkedin className="w-4 h-4" /> LinkedIn
+              <Linkedin className="w-4 h-4 text-accent" /> LinkedIn
             </a>
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=rsutharshanaram@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-white transition-colors duration-300"
+              className="p-1.5 rounded-lg border border-accent/40 bg-accent/10 text-accent hover:text-white hover:border-accent hover:bg-accent/20 transition-all duration-300 shadow-[0_0_12px_rgba(59,130,246,0.25)] hover:shadow-[0_0_20px_rgba(59,130,246,0.5)]"
               aria-label="Send Email"
             >
-              <Mail className="w-5 h-5" />
+              <Mail className="w-4 h-4" />
             </a>
           </motion.div>
         </motion.div>

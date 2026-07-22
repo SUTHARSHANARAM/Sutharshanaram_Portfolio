@@ -18,33 +18,13 @@ export function About() {
   return (
     <Section id="about" subtitle="About Me" title="Professional Profile">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mt-4">
-        {/* Left Column: Narrative & Beyond Coding */}
+        {/* Left Column: Narrative */}
         <div className="lg:col-span-5 flex flex-col gap-6">
           <div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               As an AI &amp; Data Science graduate, I enjoy transforming data into actionable insights, developing intelligent machine learning solutions, and building scalable software that combines modern engineering with data-driven decision-making. Experienced in Flutter development, Python backends, software testing, and Power BI analytics.
             </p>
           </div>
-          
-          {/* Beyond Coding Personal Brand Card */}
-          <Card delay={0.05} className="p-5 border border-border/30 bg-card/10">
-            <h4 className="font-display font-bold text-xs text-white uppercase tracking-wider mb-2">
-              Beyond Coding
-            </h4>
-            <div className="flex flex-wrap gap-1.5 mb-3">
-              {["Photography", "Filmmaking", "UI Design", "Writing", "Problem Solving"].map((interest) => (
-                <span
-                  key={interest}
-                  className="inline-flex items-center rounded-md bg-white/5 px-2 py-0.5 text-[9px] font-semibold text-zinc-300"
-                >
-                  {interest}
-                </span>
-              ))}
-            </div>
-            <p className="text-xs text-muted-foreground leading-relaxed">
-              Outside of coding, data engineering, and testing, I capture stories through visual media. I am passionate about photography, filmmaking, and UI design, combining analytical logic with creative composition.
-            </p>
-          </Card>
         </div>
 
         {/* Right Column: Highlights Checklist Grid */}

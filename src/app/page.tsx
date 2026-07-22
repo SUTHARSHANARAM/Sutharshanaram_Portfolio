@@ -24,16 +24,8 @@ export default function Home() {
         {/* Recruiter Metrics Card Grid */}
         <section className="py-12 relative z-10 select-none border-b border-border/10">
           <div className="max-w-5xl mx-auto px-6">
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <Card delay={0.05} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
-                <span className="text-2xl md:text-3xl font-display font-extrabold text-white tracking-tight">
-                  8.13
-                </span>
-                <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
-                  B.Tech CGPA
-                </span>
-              </Card>
-              <Card delay={0.1} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-accent tracking-tight">
                   94.6%
                 </span>
@@ -41,7 +33,7 @@ export default function Home() {
                   ML Accuracy
                 </span>
               </Card>
-              <Card delay={0.15} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
+              <Card delay={0.1} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-white tracking-tight">
                   100+
                 </span>
@@ -49,7 +41,7 @@ export default function Home() {
                   QA Test Cases
                 </span>
               </Card>
-              <Card delay={0.2} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
+              <Card delay={0.15} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-accent tracking-tight">
                   2
                 </span>
@@ -57,7 +49,7 @@ export default function Home() {
                   Internships
                 </span>
               </Card>
-              <Card delay={0.25} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300 col-span-2 md:col-span-1">
+              <Card delay={0.2} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-white tracking-tight">
                   6
                 </span>
