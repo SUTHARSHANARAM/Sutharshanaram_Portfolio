@@ -126,12 +126,12 @@ function ProjectMockup({ type }: { type: "crm" | "plant" | "dashboard" | "grid" 
     default:
       return (
         <div className="w-full h-36 bg-zinc-900 border-b border-border/40 relative flex items-center justify-center overflow-hidden select-none">
-          <div className="border border-border/50 bg-zinc-950 p-3 rounded-lg flex flex-col gap-2 items-center w-40">
+          <div className="border border-border/50 bg-zinc-950 p-3 rounded-lg flex flex-col gap-2 items-center w-48">
             <div className="flex items-center gap-1.5">
               <Music className="w-4 h-4 text-accent" />
-              <div className="text-[8px] font-bold text-white uppercase tracking-wider">Music Stream</div>
+              <div className="text-[8px] font-bold text-white uppercase tracking-wider">Speech Emotion AI</div>
             </div>
-            {/* Visualizer bars */}
+            {/* Visualizer bars representing voice audio STFT spectrogram */}
             <div className="flex items-end gap-1 h-6">
               <div className="w-1 h-3 bg-accent rounded-full animate-pulse" />
               <div className="w-1 h-5 bg-accent/80 rounded-full animate-bounce" />
@@ -139,7 +139,7 @@ function ProjectMockup({ type }: { type: "crm" | "plant" | "dashboard" | "grid" 
               <div className="w-1 h-6 bg-accent rounded-full animate-bounce" />
               <div className="w-1 h-2 bg-accent/40 rounded-full animate-pulse" />
             </div>
-            <span className="text-[6px] text-zinc-500">Classification: Stressed → Ambient</span>
+            <span className="text-[6px] text-zinc-400">Voice Input (~2s) → Web Audio API / TFJS</span>
           </div>
         </div>
       );

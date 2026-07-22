@@ -22,8 +22,8 @@ export const projectsData: Project[] = [
   {
     slug: "plant-disease-detection",
     title: "GAN-Enhanced Plant Disease Detection",
-    subtitle: "GAN & CNN crop diagnostics & treatment platform",
-    shortDescription: "GAN-enhanced crop disease detection achieving 94.6% accuracy using GAN data augmentation and custom CNN pipelines.",
+    subtitle: "GAN & CNN Crop Diagnostics & Treatment Platform",
+    shortDescription: "Deep learning crop disease detection system leveraging GAN synthetic data augmentation and custom CNN pipelines for plant health diagnosis.",
     techStack: ["Python", "Streamlit", "GAN", "CNN", "scikit-learn", "OpenCV"],
     githubUrl: "https://github.com/SUTHARSHANARAM/GAN-ENHANCED-PLANT-DISEASE-DETECTION-AND-TREATMENT-SUGGESTION-SYSTEM",
     liveUrl: "https://plant-disease-detect.vercel.app",
@@ -35,10 +35,10 @@ export const projectsData: Project[] = [
     uiGraphicType: "plant",
     details: {
       goal: "Develop a full-stack deep learning web application to diagnose plant diseases from leaf images and suggest precise treatment remedies to farmers, preventing crop failure.",
-      challenge: "Training datasets often exhibit severe class imbalances for rare plant diseases, and field-captured leaf photos have massive light variations, which causes standard CNN classification boundaries to overfit.",
+      challenge: "Training datasets often exhibit severe class imbalances for rare plant diseases, and field-captured leaf photos have massive light variations, causing standard CNN classification boundaries to overfit.",
       architecture: [
         "Formulated an end-to-end ML pipeline starting with OpenCV pre-processing filters for leaf contour thresholding.",
-        "Implemented a Generative Adversarial Network (GAN) architecture to generate high-fidelity synthetic samples, successfully augmenting minority classes.",
+        "Implemented a Generative Adversarial Network (GAN) architecture to generate high-fidelity synthetic samples, augmenting minority classes.",
         "Designed and trained a Convolutional Neural Network (CNN) classifier from scratch using scikit-learn for metric splits.",
         "Engineered an interactive dashboard interface using Streamlit to present diagnostic results and remedial recipes."
       ],
@@ -52,8 +52,8 @@ export const projectsData: Project[] = [
   {
     slug: "job-market-dashboard",
     title: "AI-Powered Job Market Analytics Dashboard",
-    subtitle: "Structured visual intelligence of tech market scales",
-    shortDescription: "Interactive Power BI dashboard analytics scraping and mapping 10,000+ active developer hiring trends and salary distributions.",
+    subtitle: "Interactive Tech Job Market & Salary Intelligence",
+    shortDescription: "Interactive Power BI analytics dashboard scraping, cleaning, and visualizing tech developer hiring trends and salary distributions across 10,000+ job postings.",
     techStack: ["Power BI", "Python (pandas)", "BeautifulSoup", "SQL", "Excel"],
     githubUrl: "https://github.com/SUTHARSHANARAM/AI-Powered-Job-Market-Analytics-Dashboard",
     liveUrl: "https://app.powerbi.com/view?r=job-market-dashboard-mock",
@@ -73,7 +73,7 @@ export const projectsData: Project[] = [
         "Built DAX queries for real-time ranking matrices, calculating dynamic percentiles and skill clusters."
       ],
       outcomes: [
-        "Normalised over 10,000 job listings, standardizing experience requirements and locations.",
+        "Normalized over 10,000 job listings, standardizing experience requirements and locations.",
         "Built dynamic visualizations that show high correlations between specific skill-sets (e.g. Python+SQL) and higher-tier salary distributions.",
         "Enabled instantaneous filtering of tech-stack salaries by city, experience, and remote status."
       ]
@@ -82,7 +82,7 @@ export const projectsData: Project[] = [
   {
     slug: "ai-first-crm",
     title: "AI First CRM (Healthcare)",
-    subtitle: "Intelligent clinical operations & documentation portal",
+    subtitle: "Intelligent Clinical Operations & Documentation Portal",
     shortDescription: "HIPAA-inspired clinical data portal integrating automated clinical notes summarization via LangChain and LLM pipelines.",
     techStack: ["Next.js", "FastAPI", "Firebase Auth", "PostgreSQL", "LangChain"],
     githubUrl: "https://github.com/SUTHARSHANARAM/hcp-crm-agent",
@@ -112,37 +112,37 @@ export const projectsData: Project[] = [
   {
     slug: "emotion-music-ai",
     title: "Emotion Music AI",
-    subtitle: "Mood-driven smart media player recommendations",
-    shortDescription: "Real-time facial sentiment expression classifier recommending Spotify playback queues under 300ms analysis loops.",
-    techStack: ["React", "OpenCV", "Python", "FastAPI", "Spotify Web API"],
+    subtitle: "Voice-Driven Speech Emotion Recognition & Playlist AI",
+    shortDescription: "Browser-based Speech Emotion Recognition (SER) web app analyzing recorded speech via Web Audio API & TensorFlow.js to recommend matching music playlists.",
+    techStack: ["TensorFlow.js", "Web Audio API", "JavaScript", "HTML/CSS", "YouTube API"],
     githubUrl: "https://github.com/SUTHARSHANARAM/emotion-music-ai",
     liveUrl: "https://emotion-music-ai.vercel.app",
     highlights: [
-      "Classified user webcam facial expressions in under **300ms** loops",
-      "Connected **Spotify Web API** to auto-inject mood-based song queues",
-      "Implemented local **OpenCV** frame transformations in python backends"
+      "Built browser **Speech Emotion Recognition (SER)** processing voice speech via Web Audio API",
+      "Processed ~2s audio into **STFT spectrograms** fed directly to TensorFlow.js models",
+      "Mapped predicted emotions (happy, sad, calm, angry) to **curated music playlists**"
     ],
     uiGraphicType: "music",
     details: {
-      goal: "Bridge human mood states with media applications by scanning expression keypoints and instantly building custom audio queues that align with the user's emotional state.",
-      challenge: "Processing video feeds in a client browser and communicating with heavy AI servers can introduce visible lag, causing audio recommendations to feel disconnected.",
+      goal: "Build a lightweight AI web application that captures 1–2 seconds of recorded speech, classifies the user's emotional state using Speech Emotion Recognition (SER), and recommends matching music playlists.",
+      challenge: "Performing raw audio signal processing (downsampling, Short-Time Fourier Transform STFT, spectrogram matrix generation) in client-side JavaScript without backend servers or heavy Python ML dependencies.",
       architecture: [
-        "Implemented lightweight browser capture using HTML5 Camera APIs, sending downsampled frames to local FastAPI servers.",
-        "Deployed OpenCV Harr-Cascade cascades for initial face detection, feeding crop matrices into an emotional classifier.",
-        "Linked Spotify's Web API authorization flow to enable real-time user authentication and playlist injection.",
-        "Constructed a high-fidelity dark-themed audio player styled with Framer Motion audio wave visuals."
+        "Captured raw microphone audio using HTML5 MediaRecorder and Web Audio API (getUserMedia, AudioContext).",
+        "Constructed a client-side STFT spectrogram generator in JavaScript converting PCM audio buffers into 4D tensor matrices [1, 64, 64, 1].",
+        "Executed browser-based emotion prediction using TensorFlow.js with zero server latency.",
+        "Mapped predicted emotions (happy, sad, angry, calm, excited) to dynamic YouTube & Spotify playlist recommendations."
       ],
       outcomes: [
-        "Attained real-time mood recognition response rates of under 300ms from face detection to track selection.",
-        "Constructed a fluid, interactive UI displaying micro-visualizer waves reacting to music BPM.",
-        "Engineered smooth fallback options letting users manually select mood anchors if webcam access is disabled."
+        "Achieved 100% client-side browser inference with zero backend latency or server bandwidth costs.",
+        "Built a clean, glassmorphic UI with animated recording wave bars and instant playlist navigation.",
+        "Provided heuristic energy fallback ensuring seamless emotion classification even without pre-trained model weights."
       ]
     }
   },
   {
     slug: "civic-radar",
     title: "CivicRadar AI",
-    subtitle: "Real-time urban issue detection & analytics monitoring platform",
+    subtitle: "Real-Time Urban Infrastructure Defect Monitoring Platform",
     shortDescription: "AI & computer-vision powered urban infrastructure monitoring platform mapping civic reports, road defects, and municipal analytics.",
     techStack: ["Python", "FastAPI", "React", "OpenCV", "PostgreSQL", "Tailwind CSS"],
     githubUrl: "https://github.com/SUTHARSHANARAM/CivicRadar_AI",
@@ -160,7 +160,7 @@ export const projectsData: Project[] = [
         "Constructed a FastAPI microservice backend using OpenCV and image processing filters for defect verification.",
         "Engineered an interactive React dashboard featuring real-time radar mapping and location pin clustering.",
         "Structured a PostgreSQL spatial database schema mapping issue coordinates, status tags, and resolution histories.",
-        "Built automated email/SMS alert webhooks notifying maintenance teams based on severity thresholds."
+        "Built automated email alert webhooks notifying maintenance teams based on severity thresholds."
       ],
       outcomes: [
         "Reduced manual issue verification times for simulated city council teams.",
@@ -172,9 +172,9 @@ export const projectsData: Project[] = [
   {
     slug: "load-flow-operation-suite",
     title: "Load Flow Operation Suite",
-    subtitle: "High-performance power system simulation interface",
-    shortDescription: "High-performance electrical grid simulation solving Newton-Raphson system matrices in under 5ms.",
-    techStack: ["Python", "numpy", "scipy", "React", "Tailwind CSS"],
+    subtitle: "High-Performance Power System Simulation Suite",
+    shortDescription: "High-performance electrical grid simulation engine solving Newton-Raphson power flow system matrices in under 5ms.",
+    techStack: ["Python", "NumPy", "SciPy", "React", "Tailwind CSS"],
     githubUrl: "https://github.com/SUTHARSHANARAM/loadflow-operations-suite",
     liveUrl: "https://loadflow-operations-suite-eta.vercel.app/",
     highlights: [
@@ -187,7 +187,7 @@ export const projectsData: Project[] = [
       goal: "Create a web-based grid evaluation dashboard that engineers can use to calculate active/reactive power patterns and evaluate grid margins during overload events.",
       challenge: "Power flow solutions require solving high-dimensional system matrices of non-linear algebraic equations. Standard algorithms drift and fail to converge when nodes exceed single digits.",
       architecture: [
-        "Formulated the grid admittance matrix (Ybus) inside Python using numpy and scipy optimization libraries.",
+        "Formulated the grid admittance matrix (Ybus) inside Python using NumPy and SciPy optimization libraries.",
         "Implemented the Newton-Raphson solver with dynamic jacobian updates for rapid mathematical convergence.",
         "Constructed an interactive React interface rendering a custom, draggable SVG grid of power transmission lines.",
         "Devised a real-time warning panel utilizing Tailwind states (amber/red alerts) when node voltages deviate by 5%."
@@ -200,3 +200,4 @@ export const projectsData: Project[] = [
     }
   }
 ];
+
