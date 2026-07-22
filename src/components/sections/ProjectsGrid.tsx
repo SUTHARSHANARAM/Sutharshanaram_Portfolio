@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { ArrowUpRight, Github, ExternalLink, Activity, Leaf, BarChart3, Music } from "lucide-react";
+import { ArrowUpRight, Github, ExternalLink, Activity, Leaf, BarChart3, Music, Radio } from "lucide-react";
 import { Section } from "@/components/ui/Section";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -14,7 +14,7 @@ function formatMarkdownBold(text: string) {
 }
 
 // Dedicated mockup renderer for each project card to give a premium SaaS aesthetic
-function ProjectMockup({ type }: { type: "crm" | "plant" | "dashboard" | "grid" | "music" }) {
+function ProjectMockup({ type }: { type: "crm" | "plant" | "dashboard" | "grid" | "music" | "radar" }) {
   switch (type) {
     case "crm":
       return (
@@ -103,6 +103,23 @@ function ProjectMockup({ type }: { type: "crm" | "plant" | "dashboard" | "grid" 
             <text x="20" y="8" textAnchor="middle" fill="#A1A1AA" fontSize="3.5">Bus 1</text>
             <text x="80" y="8" textAnchor="middle" fill="#A1A1AA" fontSize="3.5">Bus 2</text>
           </svg>
+        </div>
+      );
+
+    case "radar":
+      return (
+        <div className="w-full h-36 bg-zinc-900 border-b border-border/40 relative flex items-center justify-center overflow-hidden select-none">
+          <div className="border border-border/50 bg-zinc-950 p-3 rounded-lg flex flex-col gap-2 items-center w-44">
+            <div className="flex items-center gap-1.5">
+              <Radio className="w-4 h-4 text-emerald-400 animate-pulse" />
+              <div className="text-[8px] font-bold text-white uppercase tracking-wider">Civic Radar Feed</div>
+            </div>
+            <div className="w-full bg-zinc-900 rounded p-1.5 flex items-center justify-between border border-border/30">
+              <span className="text-[7px] text-zinc-300">Pothole Defect #104</span>
+              <span className="text-[6px] bg-emerald-500/20 text-emerald-400 font-semibold px-1 py-0.5 rounded">Verified</span>
+            </div>
+            <span className="text-[6px] text-zinc-500">FastAPI • PostgreSQL • OpenCV</span>
+          </div>
         </div>
       );
 

@@ -59,7 +59,7 @@ export default function Home() {
               </Card>
               <Card delay={0.25} className="p-4 flex flex-col items-center justify-center text-center gap-1.5 h-24 hover:border-accent/40 transition-colors duration-300 col-span-2 md:col-span-1">
                 <span className="text-2xl md:text-3xl font-display font-extrabold text-white tracking-tight">
-                  5
+                  6
                 </span>
                 <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-500 uppercase">
                   Featured Projects

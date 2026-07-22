@@ -141,7 +141,7 @@ export function Hero() {
             </div>
             <div className="flex items-center gap-2 text-xs text-zinc-400">
               <span className="text-xs">🚀</span>
-              <span>5 Featured Projects</span>
+              <span>6 Featured Projects</span>
             </div>
             <div className="flex items-center gap-2 text-xs text-zinc-400 col-span-2">
               <span className="text-xs">🎓</span>
