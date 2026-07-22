@@ -171,31 +171,31 @@ export const projectsData: Project[] = [
   },
   {
     slug: "load-flow-operation-suite",
-    title: "Load Flow Operation Suite",
-    subtitle: "High-Performance Power System Simulation Suite",
-    shortDescription: "High-performance electrical grid simulation engine solving Newton-Raphson power flow system matrices in under 5ms.",
-    techStack: ["Python", "NumPy", "SciPy", "React", "Tailwind CSS"],
+    title: "LoadFlow Operations Suite",
+    subtitle: "Multi-Tenant Freight Brokerage & Logistics Management Platform",
+    shortDescription: "Full-stack multi-tenant freight brokerage platform connecting Shippers, Brokers, and Carriers with RBAC, automated carrier compliance engine, and versioned rate confirmations.",
+    techStack: ["React", "TypeScript", "FastAPI", "Python", "SQLAlchemy", "JWT Auth"],
     githubUrl: "https://github.com/SUTHARSHANARAM/loadflow-operations-suite",
     liveUrl: "https://loadflow-operations-suite-eta.vercel.app/",
     highlights: [
-      "Solved high-dimensional Newton-Raphson system matrices in **5ms**",
-      "Rendered interactive **SVG** node graphs for real-time bus grids",
-      "Flagged potential line overflows using color-coded **Tailwind CSS** alerts"
+      "Built 8-stage **Load State Machine** (Posted → Rate Confirmed → In Transit → Delivered → Closed)",
+      "Engineered automated **Carrier Compliance Engine** flagging insurance & authority mismatches",
+      "Implemented fine-grained **RBAC middleware** enforcing permission catalog across 3 tenant roles"
     ],
     uiGraphicType: "grid",
     details: {
-      goal: "Create a web-based grid evaluation dashboard that engineers can use to calculate active/reactive power patterns and evaluate grid margins during overload events.",
-      challenge: "Power flow solutions require solving high-dimensional system matrices of non-linear algebraic equations. Standard algorithms drift and fail to converge when nodes exceed single digits.",
+      goal: "Develop a multi-tenant freight brokerage operations platform connecting Shippers, Brokers, and Carriers with automated compliance enforcement, role-based access control (RBAC), versioned rate confirmations, and a complete shipment lifecycle state machine.",
+      challenge: "Enforcing complex multi-tenant data scoping and role-based permissions across Shippers, Brokers, and Carriers while maintaining strict compliance blocks (insurance expiry, authority validation) at the API layer without compromising system responsiveness.",
       architecture: [
-        "Formulated the grid admittance matrix (Ybus) inside Python using NumPy and SciPy optimization libraries.",
-        "Implemented the Newton-Raphson solver with dynamic jacobian updates for rapid mathematical convergence.",
-        "Constructed an interactive React interface rendering a custom, draggable SVG grid of power transmission lines.",
-        "Devised a real-time warning panel utilizing Tailwind states (amber/red alerts) when node voltages deviate by 5%."
+        "Constructed an async FastAPI microservices backend with custom PermissionChecker RBAC middleware evaluating atomic granular permissions (load.create, load.assign_carrier, rate.confirm).",
+        "Engineered an automated Carrier Compliance Engine auto-flagging loads for expired insurance or mismatched equipment before dispatch.",
+        "Built an 8-state shipment lifecycle state machine (Posted, Assigned, Confirmed, Dispatched, In Transit, Delivered, POD Verified, Closed) with timestamped audit logging.",
+        "Designed a responsive React 19 + TypeScript frontend with Vite and role-specific dashboards for Shippers, Brokers, and Carriers."
       ],
       outcomes: [
-        "Achieved mathematical convergence for standard IEEE 14-bus grids in less than 5ms.",
-        "Constructed a robust dashboard explaining voltage angles and load profiles in real-time.",
-        "Designed a print-ready export system detailing grid admittance matrices and line losses."
+        "Achieved complete multi-tenant scoping preventing cross-organization data access across all API endpoints.",
+        "Implemented versioned rate confirmation workflows requiring mutual signatures before load dispatch.",
+        "Deployed full-stack application on Vercel and Render with live Swagger OpenAPI documentation."
       ]
     }
   }
