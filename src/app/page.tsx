@@ -6,7 +6,6 @@ import { About } from "@/components/sections/About";
 import { Skills } from "@/components/sections/Skills";
 import { ProjectsGrid } from "@/components/sections/ProjectsGrid";
 import { Experience } from "@/components/sections/Experience";
-import { Education } from "@/components/sections/Education";
 import { Certifications } from "@/components/sections/Certifications";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { Card } from "@/components/ui/Card";
@@ -104,7 +103,6 @@ export default function Home() {
         <Experience />
         <ProjectsGrid />
         <Skills />
-        <Education />
         <Certifications />
         <ContactForm />
       </main>
