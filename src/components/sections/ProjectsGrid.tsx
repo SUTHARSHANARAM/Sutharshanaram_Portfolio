@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { ArrowUpRight, Github, ExternalLink, Activity, Leaf, BarChart3, Music, Radio } from "lucide-react";
+import { ArrowUpRight, Github, ExternalLink, Activity, Leaf, BarChart3, Music, Radio, Truck } from "lucide-react";
 import { Section } from "@/components/ui/Section";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -89,20 +89,17 @@ function ProjectMockup({ type }: { type: "crm" | "plant" | "dashboard" | "grid" 
     case "grid":
       return (
         <div className="w-full h-36 bg-zinc-900 border-b border-border/40 relative flex items-center justify-center overflow-hidden select-none">
-          <svg className="w-32 h-20 text-zinc-700" viewBox="0 0 100 60">
-            {/* Vector bus grid diagram */}
-            <circle cx="20" cy="15" r="3" fill="#3B82F6" />
-            <circle cx="50" cy="45" r="3" fill="#EF4444" /> {/* Overloaded red node */}
-            <circle cx="80" cy="15" r="3" fill="#3B82F6" />
-            
-            <line x1="20" y1="15" x2="50" y2="45" stroke="#3B82F6" strokeWidth="0.5" />
-            <line x1="50" y1="45" x2="80" y2="15" stroke="#EF4444" strokeWidth="0.8" />
-            <line x1="20" y1="15" x2="80" y2="15" stroke="#3B82F6" strokeWidth="0.5" />
-
-            <text x="50" y="55" textAnchor="middle" fill="#EF4444" fontSize="4.5" fontWeight="bold">OVERLOAD</text>
-            <text x="20" y="8" textAnchor="middle" fill="#A1A1AA" fontSize="3.5">Bus 1</text>
-            <text x="80" y="8" textAnchor="middle" fill="#A1A1AA" fontSize="3.5">Bus 2</text>
-          </svg>
+          <div className="border border-border/50 bg-zinc-950 p-3 rounded-lg flex flex-col gap-2 items-center w-52">
+            <div className="flex items-center gap-1.5">
+              <Truck className="w-4 h-4 text-accent" />
+              <div className="text-[8px] font-bold text-white uppercase tracking-wider">Freight Brokerage Operations</div>
+            </div>
+            <div className="w-full bg-zinc-900 rounded p-1.5 flex items-center justify-between border border-border/30">
+              <span className="text-[7px] text-zinc-300 font-mono">Load #4829 • Chicago → Dallas</span>
+              <span className="text-[6px] bg-accent/20 text-accent font-semibold px-1 py-0.5 rounded">Rate Confirmed</span>
+            </div>
+            <span className="text-[6px] text-zinc-400 font-mono">Compliance Check: Verified ✓ | RBAC Active</span>
+          </div>
         </div>
       );
 
